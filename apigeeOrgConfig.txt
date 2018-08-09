@@ -1,0 +1,18 @@
+IP1=127.0.0.1
+MSIP="$IP1"
+
+ADMIN_EMAIL="justinmoses@google.com"
+APIGEE_ADMINPW=presales123
+
+NEW_USER="y"
+USER_NAME=justinmoses@outlook.com
+FIRST_NAME=org
+LAST_NAME=admin
+USER_PWD=presales123
+ORG_NAME=frontier          #lowercase letters only, no spaces, underscores, or periods
+ORG_ADMIN="$USER_NAME"
+ENV_NAME=prod
+VHOST_PORT=9001
+VHOST_NAME=default
+VHOST_ALIAS="$IP1:9001"
+AXGROUP=axGroupName
