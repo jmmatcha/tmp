@@ -2,14 +2,14 @@ IP1=127.0.0.1
 MSIP="$IP1"
 
 ADMIN_EMAIL="justinmoses@google.com"
-APIGEE_ADMINPW=presales123
+APIGEE_ADMINPW=Presales123!
 
 NEW_USER="y"
-USER_NAME=justinmoses@outlook.com
+USER_NAME=justinmoses@frontier.com
 FIRST_NAME=org
 LAST_NAME=admin
-USER_PWD=presales123
-ORG_NAME=frontier          #lowercase letters only, no spaces, underscores, or periods
+USER_PWD=Presales123!
+ORG_NAME=frontier #lowercase letters only, no spaces, underscores, or periods
 ORG_ADMIN="$USER_NAME"
 ENV_NAME=prod
 VHOST_PORT=9001

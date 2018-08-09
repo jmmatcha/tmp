@@ -1,20 +1,29 @@
+# With SMTP
 IP1=127.0.0.1
 HOSTIP=$(hostname -i)
+ENABLE_SYSTEM_CHECK=y
 ADMIN_EMAIL=justinmoses@google.com
-APIGEE_ADMINPW=presales123
+# Admin password must be at least 8 characters long and contain one uppercase
+# letter, one lowercase letter, and one digit or special character
+APIGEE_ADMINPW=Presales123!
 LICENSE_FILE=/usr/local/apigeeLicense.txt
 MSIP=$IP1
 LDAP_TYPE=1
-APIGEE_LDAPPW=presales123
-BIND_ON_ALL_INTERFACES=y
+APIGEE_LDAPPW=Presales123!
 MP_POD=gateway
 REGION=dc-1
 ZK_HOSTS="$IP1"
 ZK_CLIENT_HOSTS="$IP1"
+# Must use IP addresses for CASS_HOSTS, not DNS names.
 CASS_HOSTS="$IP1"
+# Default is postgres
+PG_PWD=postgres
 SKIP_SMTP=n
 SMTPHOST=smtp.example.com
-SMTPUSER=smtp@example.com # 0 for no username
-SMTPPASSWORD=smtppwd # 0 for no password
+SMTPUSER=smtp@example.com
+# omit for no username
+SMTPPASSWORD=Presales123!
+# omit for no password
 SMTPSSL=n
 SMTPPORT=25
+SMTPMAILFROM="My Company <myco@company.com>"
